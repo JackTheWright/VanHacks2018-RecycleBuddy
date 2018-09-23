@@ -62,13 +62,13 @@ class RegistrationVC: UIViewController {
 class AddToServer {
     
     func scoreadd(name: String, score: Int) {
-        let myUrl = URL(string: "https://aqueous-forest-88166.herokuapp.com/"+"login");
+        let myUrl = URL(string: "https://aqueous-forest-88166.herokuapp.com/"+"mlsaved");
         
         var request = URLRequest(url:myUrl!)
         
         request.httpMethod = "POST"// Compose a query string
         
-        let postString = "name=" + String(global.fullname) + "&score=" + String(global.score);
+        let postString = "name=" + String(global.fullname) + "&mlsaved=" + String(global.score);
         
         request.httpBody = postString.data(using: String.Encoding.utf8);
         

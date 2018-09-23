@@ -20,6 +20,8 @@
 		10DEDC6D2157751000739EEE /* RecycleAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC6C2157751000739EEE /* RecycleAddVC.swift */; };
 		10DEDC6F21580C2600739EEE /* ThankYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC6E21580C2600739EEE /* ThankYou.swift */; };
 		10DEDC7121583DC200739EEE /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC7021583DC200739EEE /* profileVC.swift */; };
+		10DEDC732158427100739EEE /* Leaderboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DEDC722158427100739EEE /* Leaderboard.storyboard */; };
+		10DEDC752158428100739EEE /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC742158428100739EEE /* Leaderboard.swift */; };
 		10ED124D2156B678005818D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED124C2156B678005818D9 /* AppDelegate.swift */; };
 		10ED12542156B679005818D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12532156B679005818D9 /* Assets.xcassets */; };
 		10ED12572156B679005818D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12552156B679005818D9 /* LaunchScreen.storyboard */; };
@@ -80,6 +82,8 @@
 		10DEDC6C2157751000739EEE /* RecycleAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecycleAddVC.swift; sourceTree = "<group>"; };
 		10DEDC6E21580C2600739EEE /* ThankYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYou.swift; sourceTree = "<group>"; };
 		10DEDC7021583DC200739EEE /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
+		10DEDC722158427100739EEE /* Leaderboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Leaderboard.storyboard; path = "../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/4415BE0E-46D5-45FB-9943-A66BD94DB498/Leaderboard.storyboard"; sourceTree = "<group>"; };
+		10DEDC742158428100739EEE /* Leaderboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Leaderboard.swift; path = "../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/40B2619B-3F5A-4001-A260-C7F84153FB59/Leaderboard.swift"; sourceTree = "<group>"; };
 		10ED12492156B678005818D9 /* VanHacksJAGM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanHacksJAGM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10ED124C2156B678005818D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10ED12532156B679005818D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -170,7 +174,9 @@
 				182971722156CD5E0054D927 /* Login-Register.storyboard */,
 				10ED12A5215705DA005818D9 /* DrinkyFill.storyboard */,
 				104C8F02215743B60026C97F /* RecycleAdd.storyboard */,
+				10DEDC722158427100739EEE /* Leaderboard.storyboard */,
 				104C8EFB215743AD0026C97F /* RefillAdd.storyboard */,
+				10DEDC742158428100739EEE /* Leaderboard.swift */,
 				10DEDC6A2157746700739EEE /* RefillorRecycle.storyboard */,
 				104C8EFC215743AD0026C97F /* RefillAddVC.swift */,
 				10DEDC6C2157751000739EEE /* RecycleAddVC.swift */,
@@ -355,6 +361,7 @@
 				10ED12572156B679005818D9 /* LaunchScreen.storyboard in Resources */,
 				10DEDC6B2157746700739EEE /* RefillorRecycle.storyboard in Resources */,
 				10ED128E2156C079005818D9 /* Roboto-ThinItalic.ttf in Resources */,
+				10DEDC732158427100739EEE /* Leaderboard.storyboard in Resources */,
 				10ED12A6215705DA005818D9 /* DrinkyFill.storyboard in Resources */,
 				10ED12542156B679005818D9 /* Assets.xcassets in Resources */,
 				10ED128F2156C079005818D9 /* Roboto-BoldItalic.ttf in Resources */,
@@ -393,6 +400,7 @@
 				18D4F3462157F96E00C13A16 /* MenuDropController.swift in Sources */,
 				10DEDC6D2157751000739EEE /* RecycleAddVC.swift in Sources */,
 				10ED12A821570839005818D9 /* DrinkyfillVC.swift in Sources */,
+				10DEDC752158428100739EEE /* Leaderboard.swift in Sources */,
 				10DEDC612157692B00739EEE /* refillOrRecycleVC.swift in Sources */,
 				104C8F05215744930026C97F /* Login.swift in Sources */,
 				10DEDC6F21580C2600739EEE /* ThankYou.swift in Sources */,

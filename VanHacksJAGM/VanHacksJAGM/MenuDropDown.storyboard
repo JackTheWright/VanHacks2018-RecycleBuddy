@@ -51,7 +51,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="oTK-VZ-K4l" kind="show" id="xx1-1T-leo"/>
+                                    <segue destination="RIW-5g-Lmz" kind="show" id="s91-3a-xD6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wX0-Qv-FL6">
@@ -61,9 +61,6 @@
                                 <state key="normal" title="Log Out">
                                     <color key="titleColor" red="0.023529411760000001" green="0.65490196079999996" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="LwS-ry-Y2b" kind="show" id="hb2-rn-u2q"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVw-ly-cCk">
                                 <rect key="frame" x="179" y="58" width="16" height="22"/>
@@ -80,6 +77,9 @@
                                 <state key="normal" title="Leaderboard">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gVv-qi-9QC" kind="show" id="3CR-2u-6xd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.015686274510000001" green="0.015686274510000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -104,7 +104,7 @@
                 <viewControllerPlaceholder storyboardName="RefillorRecycle" id="cAy-WP-0Xr" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dCG-R7-mlW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1394" y="-134"/>
+            <point key="canvasLocation" x="1526" y="-180"/>
         </scene>
         <!--Profile-->
         <scene sceneID="0ve-JW-ivH">
@@ -114,13 +114,13 @@
             </objects>
             <point key="canvasLocation" x="1403" y="8"/>
         </scene>
-        <!--Login-Register-->
-        <scene sceneID="dd1-nQ-G4S">
+        <!--Leaderboard-->
+        <scene sceneID="boE-7v-qn9">
             <objects>
-                <viewControllerPlaceholder storyboardName="Login-Register" id="LwS-ry-Y2b" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wYI-kB-c5n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Leaderboard" id="gVv-qi-9QC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y9w-eP-3DE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1417" y="182"/>
+            <point key="canvasLocation" x="1439" y="152"/>
         </scene>
     </scenes>
     <resources>
