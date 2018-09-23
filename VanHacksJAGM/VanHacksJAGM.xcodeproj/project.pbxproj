@@ -44,6 +44,7 @@
 		18BEF7A821577C7A0097E3B7 /* MilestonePopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF7A721577C7A0097E3B7 /* MilestonePopController.swift */; };
 		18D4F3452157F96E00C13A16 /* MenuDropDown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4F3432157F96D00C13A16 /* MenuDropDown.storyboard */; };
 		18D4F3462157F96E00C13A16 /* MenuDropController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4F3442157F96E00C13A16 /* MenuDropController.swift */; };
+		18D4F3482157FD5200C13A16 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4F3472157FD5200C13A16 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		18BEF7A721577C7A0097E3B7 /* MilestonePopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestonePopController.swift; sourceTree = "<group>"; };
 		18D4F3432157F96D00C13A16 /* MenuDropDown.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MenuDropDown.storyboard; sourceTree = "<group>"; };
 		18D4F3442157F96E00C13A16 /* MenuDropController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDropController.swift; sourceTree = "<group>"; };
+		18D4F3472157FD5200C13A16 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,9 +160,9 @@
 			isa = PBXGroup;
 			children = (
 				18D4F3442157F96E00C13A16 /* MenuDropController.swift */,
-				18D4F3432157F96D00C13A16 /* MenuDropDown.storyboard */,
 				10ED12A921572955005818D9 /* Register.swift */,
 				10ED124C2156B678005818D9 /* AppDelegate.swift */,
+				18D4F3432157F96D00C13A16 /* MenuDropDown.storyboard */,
 				182971722156CD5E0054D927 /* Login-Register.storyboard */,
 				10ED12A5215705DA005818D9 /* DrinkyFill.storyboard */,
 				104C8F02215743B60026C97F /* RecycleAdd.storyboard */,
@@ -181,6 +183,7 @@
 				10ED127C2156C079005818D9 /* Roboto */,
 				104C8F04215744930026C97F /* Login.swift */,
 				18BEF7A721577C7A0097E3B7 /* MilestonePopController.swift */,
+				18D4F3472157FD5200C13A16 /* Profile.storyboard */,
 			);
 			path = VanHacksJAGM;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				10ED12932156C079005818D9 /* Roboto-BlackItalic.ttf in Resources */,
 				10ED128C2156C079005818D9 /* Roboto-Regular.ttf in Resources */,
 				10ED12922156C079005818D9 /* LICENSE.txt in Resources */,
+				18D4F3482157FD5200C13A16 /* Profile.storyboard in Resources */,
 				10ED128B2156C079005818D9 /* Roboto-Light.ttf in Resources */,
 				10ED128D2156C079005818D9 /* Roboto-MediumItalic.ttf in Resources */,
 				104C8EFF215743AD0026C97F /* RefillAdd.storyboard in Resources */,
