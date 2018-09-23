@@ -10,6 +10,8 @@ import UIKit
 
 struct global {
     static var email=""
+    static var fullname=""
+    static var mlsaved=""
 }
 
 

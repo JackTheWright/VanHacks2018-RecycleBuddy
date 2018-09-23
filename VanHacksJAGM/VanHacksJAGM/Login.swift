@@ -64,10 +64,13 @@ class LoginVC: UIViewController {
                     print("mlsaved: \(String(describing: mlsaved))")
                     
                     if (global.email == "0") {
-                        self.incorrectPass.text = "Login failed. Email or password was incorrect."
+                        
+                        
+                        UserDefaults.standard.set(false, forKey: "badpass")
+                        
                     }
                     else {
-                        self.incorrectPass.text = ""
+                        
                         UserDefaults.standard.set(true, forKey: "badpass")
                     }
                     
@@ -80,6 +83,7 @@ class LoginVC: UIViewController {
         }
         task.resume()
         print("yeet")
+        print(UserDefaults.standard.bool(forKey: "badpass"))
         if (UserDefaults.standard.bool(forKey: "badpass") == true) {
             print("yeet2electricboogaloo")
             let storyBoard: UIStoryboard = UIStoryboard(name: "RefillorRecycle", bundle: nil)
@@ -87,7 +91,13 @@ class LoginVC: UIViewController {
             let newViewController = storyBoard.instantiateViewController(withIdentifier: "RefillorRecycle") as! RefillOrRecycleVC
             print("yeet4")
             self.present(newViewController, animated: true, completion: nil)
+            UserDefaults.standard.set(false, forKey: "badpass")
+            UserDefaults.standard.set("logged", forKey: "isLogged")
         }
+        else {
+            incorrectPass.text = "Login failed. Email or password was wrong."
+        }
+
     }
     
 
