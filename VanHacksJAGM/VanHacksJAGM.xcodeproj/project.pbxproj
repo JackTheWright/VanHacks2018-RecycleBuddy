@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		104C8EF62157437A0026C97F /* GlassAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EF2215743790026C97F /* GlassAddVC.swift */; };
-		104C8EF72157437A0026C97F /* PlasticAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EF32157437A0026C97F /* PlasticAddVC.swift */; };
-		104C8EF82157437A0026C97F /* AluminumAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EF42157437A0026C97F /* AluminumAddVC.swift */; };
 		104C8EF92157437A0026C97F /* PaperAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EF52157437A0026C97F /* PaperAddVC.swift */; };
 		104C8EFE215743AD0026C97F /* RecycleAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EFA215743AC0026C97F /* RecycleAddVC.swift */; };
 		104C8EFF215743AD0026C97F /* RefillAdd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104C8EFB215743AD0026C97F /* RefillAdd.storyboard */; };
@@ -18,6 +15,9 @@
 		104C8F03215743B60026C97F /* RecycleAdd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104C8F02215743B60026C97F /* RecycleAdd.storyboard */; };
 		104C8F05215744930026C97F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8F04215744930026C97F /* Login.swift */; };
 		10DEDC612157692B00739EEE /* refillOrRecycleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC602157692B00739EEE /* refillOrRecycleVC.swift */; };
+		10DEDC65215773B200739EEE /* AluminumAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC62215773B200739EEE /* AluminumAddVC.swift */; };
+		10DEDC66215773B200739EEE /* GlassAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC63215773B200739EEE /* GlassAddVC.swift */; };
+		10DEDC67215773B200739EEE /* PlasticAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC64215773B200739EEE /* PlasticAddVC.swift */; };
 		10ED124D2156B678005818D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED124C2156B678005818D9 /* AppDelegate.swift */; };
 		10ED12522156B678005818D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12502156B678005818D9 /* Main.storyboard */; };
 		10ED12542156B679005818D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12532156B679005818D9 /* Assets.xcassets */; };
@@ -62,9 +62,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		104C8EF2215743790026C97F /* GlassAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlassAddVC.swift; path = ../../../dumbalex/guyiuoiyiuy/GlassAddVC.swift; sourceTree = "<group>"; };
-		104C8EF32157437A0026C97F /* PlasticAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlasticAddVC.swift; path = ../../../dumbalex/guyiuoiyiuy/PlasticAddVC.swift; sourceTree = "<group>"; };
-		104C8EF42157437A0026C97F /* AluminumAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AluminumAddVC.swift; path = ../../../dumbalex/guyiuoiyiuy/AluminumAddVC.swift; sourceTree = "<group>"; };
 		104C8EF52157437A0026C97F /* PaperAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaperAddVC.swift; path = ../../../dumbalex/guyiuoiyiuy/PaperAddVC.swift; sourceTree = "<group>"; };
 		104C8EFA215743AC0026C97F /* RecycleAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecycleAddVC.swift; path = ../../../dumbalex/guyiuoiyiuy/RecycleAddVC.swift; sourceTree = "<group>"; };
 		104C8EFB215743AD0026C97F /* RefillAdd.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RefillAdd.storyboard; sourceTree = "<group>"; };
@@ -73,6 +70,9 @@
 		104C8F02215743B60026C97F /* RecycleAdd.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RecycleAdd.storyboard; sourceTree = "<group>"; };
 		104C8F04215744930026C97F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		10DEDC602157692B00739EEE /* refillOrRecycleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = refillOrRecycleVC.swift; sourceTree = "<group>"; };
+		10DEDC62215773B200739EEE /* AluminumAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AluminumAddVC.swift; sourceTree = "<group>"; };
+		10DEDC63215773B200739EEE /* GlassAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassAddVC.swift; sourceTree = "<group>"; };
+		10DEDC64215773B200739EEE /* PlasticAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlasticAddVC.swift; sourceTree = "<group>"; };
 		10ED12492156B678005818D9 /* VanHacksJAGM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanHacksJAGM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10ED124C2156B678005818D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10ED12512156B678005818D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -165,10 +165,10 @@
 				104C8EFD215743AD0026C97F /* RefillorRecycle.storyboard */,
 				10DEDC602157692B00739EEE /* refillOrRecycleVC.swift */,
 				10ED12A721570839005818D9 /* DrinkyfillVC.swift */,
-				104C8EF42157437A0026C97F /* AluminumAddVC.swift */,
-				104C8EF2215743790026C97F /* GlassAddVC.swift */,
+				10DEDC62215773B200739EEE /* AluminumAddVC.swift */,
+				10DEDC63215773B200739EEE /* GlassAddVC.swift */,
+				10DEDC64215773B200739EEE /* PlasticAddVC.swift */,
 				104C8EF52157437A0026C97F /* PaperAddVC.swift */,
-				104C8EF32157437A0026C97F /* PlasticAddVC.swift */,
 				10ED129F2156C3ED005818D9 /* CanIRecycleVC.swift */,
 				10ED12532156B679005818D9 /* Assets.xcassets */,
 				10ED12552156B679005818D9 /* LaunchScreen.storyboard */,
@@ -367,17 +367,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				104C8EFE215743AD0026C97F /* RecycleAddVC.swift in Sources */,
-				104C8EF82157437A0026C97F /* AluminumAddVC.swift in Sources */,
 				104C8EF92157437A0026C97F /* PaperAddVC.swift in Sources */,
 				10ED124D2156B678005818D9 /* AppDelegate.swift in Sources */,
 				104C8F00215743AD0026C97F /* RefillAddVC.swift in Sources */,
+				10DEDC65215773B200739EEE /* AluminumAddVC.swift in Sources */,
 				10ED12AA21572955005818D9 /* Register.swift in Sources */,
 				10ED12A02156C3ED005818D9 /* CanIRecycleVC.swift in Sources */,
-				104C8EF72157437A0026C97F /* PlasticAddVC.swift in Sources */,
 				10ED12A821570839005818D9 /* DrinkyfillVC.swift in Sources */,
 				10DEDC612157692B00739EEE /* refillOrRecycleVC.swift in Sources */,
 				104C8F05215744930026C97F /* Login.swift in Sources */,
-				104C8EF62157437A0026C97F /* GlassAddVC.swift in Sources */,
+				10DEDC66215773B200739EEE /* GlassAddVC.swift in Sources */,
+				10DEDC67215773B200739EEE /* PlasticAddVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

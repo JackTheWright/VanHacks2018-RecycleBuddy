@@ -71,4 +71,20 @@ class AluminumAddVC: UIViewController {
         Oz2mL.selectedSegmentIndex = 0
     }
     
+    @IBAction func Submit(_ sender: UIButton) {
+        let bigCount = Int(largeLabel.text ?? "0")! * 2000
+        let midCount = Int(mediumLabel.text ?? "0")! * 1000
+        let lowCount = Int(smallLabel.text ?? "0")! * 500
+        let bottlescore = (bigCount + midCount + lowCount) / 500
+        var totalScore = UserDefaults.standard.integer(forKey: "totalScore")
+        totalScore = totalScore + bottlescore
+        UserDefaults.standard.set(totalScore, forKey: "totalScore")
+        largeLabel.text = "0"
+        mediumLabel.text = "0"
+        smallLabel.text = "0"
+        keypad.text = ""
+        Oz2mL.selectedSegmentIndex = 0
+        
+    }
+    
 }
