@@ -40,16 +40,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         
-        let logged = UserDefaults.standard.bool(forKey: "isLogged")
-        if logged == true {
-            
-           let storyboard = UIStoryboard(name: "login", bundle: nil)
-            let rootController = storyboard.instantiateViewController(withIdentifier: "RefillOrRecycle")
-            
-            if let window = self.window {
-                window.rootViewController = rootController
-            }
-        }
+//        let logged = UserDefaults.standard.bool(forKey: "isLogged") ?? false
+//        if logged == true {
+//            
+//           let storyboard = UIStoryboard(name: "login", bundle: nil)
+//            let rootController = storyboard.instantiateViewController(withIdentifier: "RefillOrRecycle")
+//            
+//            if let window = self.window {
+//                window.rootViewController = rootController
+//            }
+//        }
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
     }
 

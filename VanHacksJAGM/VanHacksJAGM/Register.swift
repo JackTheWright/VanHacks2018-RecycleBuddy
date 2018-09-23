@@ -68,7 +68,7 @@ class AddToServer {
         
         request.httpMethod = "POST"// Compose a query string
         
-        let postString = "name=" + String(global.fullname) + "&mlsaved=" + String(global.score);
+        let postString = "name1=" + String(global.fullname) + "&mlsaved=" + String(global.score);
         
         request.httpBody = postString.data(using: String.Encoding.utf8);
         

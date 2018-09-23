@@ -90,14 +90,6 @@
             </objects>
             <point key="canvasLocation" x="798" y="83"/>
         </scene>
-        <!--Profile-->
-        <scene sceneID="LvW-cM-pq1">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Profile" id="oTK-VZ-K4l" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="agZ-jP-rxe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1417" y="-420"/>
-        </scene>
         <!--RefillorRecycle-->
         <scene sceneID="ESR-Fq-4wD">
             <objects>
