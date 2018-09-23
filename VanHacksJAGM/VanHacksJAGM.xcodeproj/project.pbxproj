@@ -18,6 +18,7 @@
 		10DEDC692157743900739EEE /* PaperAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC682157743900739EEE /* PaperAddVC.swift */; };
 		10DEDC6B2157746700739EEE /* RefillorRecycle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DEDC6A2157746700739EEE /* RefillorRecycle.storyboard */; };
 		10DEDC6D2157751000739EEE /* RecycleAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC6C2157751000739EEE /* RecycleAddVC.swift */; };
+		10DEDC6F21580C2600739EEE /* ThankYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC6E21580C2600739EEE /* ThankYou.swift */; };
 		10ED124D2156B678005818D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED124C2156B678005818D9 /* AppDelegate.swift */; };
 		10ED12542156B679005818D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12532156B679005818D9 /* Assets.xcassets */; };
 		10ED12572156B679005818D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12552156B679005818D9 /* LaunchScreen.storyboard */; };
@@ -76,6 +77,7 @@
 		10DEDC682157743900739EEE /* PaperAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperAddVC.swift; sourceTree = "<group>"; };
 		10DEDC6A2157746700739EEE /* RefillorRecycle.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RefillorRecycle.storyboard; sourceTree = "<group>"; };
 		10DEDC6C2157751000739EEE /* RecycleAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecycleAddVC.swift; sourceTree = "<group>"; };
+		10DEDC6E21580C2600739EEE /* ThankYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYou.swift; sourceTree = "<group>"; };
 		10ED12492156B678005818D9 /* VanHacksJAGM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanHacksJAGM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10ED124C2156B678005818D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10ED12532156B679005818D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				104C8F04215744930026C97F /* Login.swift */,
 				18BEF7A721577C7A0097E3B7 /* MilestonePopController.swift */,
 				18D4F3472157FD5200C13A16 /* Profile.storyboard */,
+				10DEDC6E21580C2600739EEE /* ThankYou.swift */,
 			);
 			path = VanHacksJAGM;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				10ED12A821570839005818D9 /* DrinkyfillVC.swift in Sources */,
 				10DEDC612157692B00739EEE /* refillOrRecycleVC.swift in Sources */,
 				104C8F05215744930026C97F /* Login.swift in Sources */,
+				10DEDC6F21580C2600739EEE /* ThankYou.swift in Sources */,
 				10DEDC66215773B200739EEE /* GlassAddVC.swift in Sources */,
 				10DEDC67215773B200739EEE /* PlasticAddVC.swift in Sources */,
 			);

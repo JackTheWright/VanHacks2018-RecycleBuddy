@@ -84,6 +84,7 @@ class PlasticAddVC: UIViewController {
         let midCount = Int(mediumLabel.text ?? "0")! * 1000
         let lowCount = Int(smallLabel.text ?? "0")! * 500
         let bottlescore = (bigCount + midCount + lowCount) / 500
+        UserDefaults.standard.set(bottlescore, forKey: "bottleScore")
         var totalScore = UserDefaults.standard.integer(forKey: "totalScore")
         totalScore = totalScore + bottlescore
         print(totalScore)
@@ -93,6 +94,9 @@ class PlasticAddVC: UIViewController {
         smallLabel.text = "0"
         keypad.text = ""
         Oz2mL.selectedSegmentIndex = 0
+        let storyBoard: UIStoryboard = UIStoryboard(name: "RecycleAdd", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "thankyou") as! ThankYouVC
+        self.present(newViewController, animated: true, completion: nil)
         
     }
     

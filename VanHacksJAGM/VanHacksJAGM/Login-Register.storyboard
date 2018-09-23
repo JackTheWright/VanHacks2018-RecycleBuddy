@@ -20,10 +20,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--LoginVC-->
+        <!--login-->
         <scene sceneID="WL1-uD-r8l">
             <objects>
-                <viewController storyboardIdentifier="login" id="M04-ol-mVG" customClass="LoginVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" title="login" id="M04-ol-mVG" customClass="LoginVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y8c-8w-SSx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

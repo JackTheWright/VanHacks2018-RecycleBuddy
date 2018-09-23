@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="2277.5999999999999" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--thankyou-->
         <scene sceneID="TId-lt-rku">
             <objects>
-                <viewController id="Zpu-ZH-SkM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="thankyou" title="thankyou" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zpu-ZH-SkM" customClass="ThankYouVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W1j-Ae-pF5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,7 +94,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="for doing your part and keeping our oceans clean!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHx-Rq-8qO">
-                                <rect key="frame" x="24" y="129" width="311" height="61"/>
+                                <rect key="frame" x="24" y="129" width="327" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -170,10 +170,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vxa-JR-MZU"/>
                     </view>
+                    <connections>
+                        <outlet property="bottleTotal" destination="fDl-35-lOy" id="V78-Hq-gcT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="41p-Od-WQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3073" y="139"/>
+            <point key="canvasLocation" x="3072.8000000000002" y="138.98050974512745"/>
         </scene>
         <!--MenuDropDown-->
         <scene sceneID="7A7-eg-U9c">
@@ -313,10 +316,10 @@
             </objects>
             <point key="canvasLocation" x="868" y="138.98050974512745"/>
         </scene>
-        <!--Glass AddVC-->
+        <!--glass-->
         <scene sceneID="60j-H5-cMs">
             <objects>
-                <viewController id="wl6-24-dn1" customClass="GlassAddVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="glass" title="glass" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wl6-24-dn1" customClass="GlassAddVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ks5-L7-bkB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -394,7 +397,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Zpu-ZH-SkM" kind="show" id="Ew9-nL-G8K"/>
+                                    <action selector="Submit:" destination="wl6-24-dn1" eventType="touchUpInside" id="XGx-Cb-GvJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZv-IB-dge">
@@ -557,10 +560,10 @@
             </objects>
             <point key="canvasLocation" x="-332" y="480"/>
         </scene>
-        <!--Plastic AddVC-->
+        <!--plastic-->
         <scene sceneID="d6m-Il-a1V">
             <objects>
-                <viewController id="jXw-vM-3Rh" customClass="PlasticAddVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="plastic" title="plastic" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jXw-vM-3Rh" customClass="PlasticAddVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9kT-Uu-Let">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -662,7 +665,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Zpu-ZH-SkM" kind="show" id="euq-T4-GBR"/>
+                                    <action selector="Submit:" destination="jXw-vM-3Rh" eventType="touchUpInside" id="lj1-Ha-uKY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oz-aY-jcV">
@@ -792,10 +795,10 @@
             </objects>
             <point key="canvasLocation" x="660" y="958"/>
         </scene>
-        <!--Aluminum AddVC-->
+        <!--aluminum-->
         <scene sceneID="Lju-0I-e4z">
             <objects>
-                <viewController id="lcz-aG-ke4" customClass="AluminumAddVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="aluminum" title="aluminum" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lcz-aG-ke4" customClass="AluminumAddVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pkj-08-QsF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -833,7 +836,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Zpu-ZH-SkM" kind="show" id="KET-CI-U9x"/>
+                                    <action selector="Submit:" destination="lcz-aG-ke4" eventType="touchUpInside" id="WmF-Qk-QG9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyQ-RA-nzt">
@@ -1059,10 +1062,10 @@
             </objects>
             <point key="canvasLocation" x="1277.5999999999999" y="957.57121439280365"/>
         </scene>
-        <!--Paper AddVC-->
+        <!--paper-->
         <scene sceneID="hgm-7Y-Y32">
             <objects>
-                <viewController id="dap-Ql-7r6" customClass="PaperAddVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="paper" title="paper" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dap-Ql-7r6" customClass="PaperAddVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rec-qD-Bee">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1098,7 +1101,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Zpu-ZH-SkM" kind="show" id="LJS-je-5Aa"/>
+                                    <action selector="Submit:" destination="dap-Ql-7r6" eventType="touchUpInside" id="7IG-Re-8vz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rV3-Fb-RLD">
@@ -1321,8 +1324,7 @@
         <image name="backarrowblue" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="b8L-ia-WQb"/>
-        <segue reference="eCG-Up-Ucr"/>
-        <segue reference="LJS-je-5Aa"/>
+        <segue reference="bx7-2h-ClV"/>
+        <segue reference="nW2-YH-3JP"/>
     </inferredMetricsTieBreakers>
 </document>

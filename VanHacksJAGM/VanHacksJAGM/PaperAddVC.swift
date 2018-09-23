@@ -76,18 +76,25 @@ class PaperAddVC: UIViewController {
 
     }
     @IBAction func Submit(_ sender: UIButton) {
-        let bigCount = Int(largeLabel.text ?? "0")! * 2000
-        let midCount = Int(mediumLabel.text ?? "0")! * 1000
-        let lowCount = Int(smallLabel.text ?? "0")! * 500
-        let bottlescore = (bigCount + midCount + lowCount) / 500
+        let bigCount = Int(largeLabel.text ?? "0")! * 591
+        let midCount = Int(mediumLabel.text ?? "0")! * 473
+        let lowCount = Int(smallLabel.text ?? "0")! * 355
+        let bottlescore = (floor(Double((bigCount + midCount + lowCount) / 500)))
+        print("bottleScore")
+        UserDefaults.standard.set(bottlescore, forKey: "bottleScore")
         var totalScore = UserDefaults.standard.integer(forKey: "totalScore")
-        totalScore = totalScore + bottlescore
+        totalScore = totalScore + Int(bottlescore)
+        
         UserDefaults.standard.set(totalScore, forKey: "totalScore")
         largeLabel.text = "0"
         mediumLabel.text = "0"
         smallLabel.text = "0"
         keypad.text = ""
         Oz2mL.selectedSegmentIndex = 0
+        let storyBoard: UIStoryboard = UIStoryboard(name: "RecycleAdd", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "thankyou") as! ThankYouVC
+        self.present(newViewController, animated: true, completion: nil)
+        
         
     }
 }

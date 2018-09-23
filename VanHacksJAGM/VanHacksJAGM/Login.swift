@@ -16,6 +16,7 @@ class LoginVC: UIViewController {
         super.viewDidLoad()
         
         incorrectPass.text = ""
+        UserDefaults.standard.set(false, forKey: "isLogged")
         
     self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
     }
@@ -85,13 +86,10 @@ class LoginVC: UIViewController {
         print("yeet")
         print(UserDefaults.standard.bool(forKey: "badpass"))
         if (UserDefaults.standard.bool(forKey: "badpass") == true) {
-            print("yeet2electricboogaloo")
             let storyBoard: UIStoryboard = UIStoryboard(name: "RefillorRecycle", bundle: nil)
-            print("yeet3")
             let newViewController = storyBoard.instantiateViewController(withIdentifier: "RefillorRecycle") as! RefillOrRecycleVC
-            print("yeet4")
             self.present(newViewController, animated: true, completion: nil)
-            UserDefaults.standard.set(false, forKey: "badpass")
+            
             UserDefaults.standard.set("logged", forKey: "isLogged")
         }
         else {

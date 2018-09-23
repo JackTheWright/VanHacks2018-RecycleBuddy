@@ -16,6 +16,7 @@ class RefillOrRecycleVC: UIViewController {
         super.viewDidLoad()
         let scoreTotal = UserDefaults.standard.integer(forKey: "totalScore")
         bottles.text = String(scoreTotal) + " Bottles"
+        UserDefaults.standard.set(true, forKey: "isLogged")
         
     }
     @IBOutlet weak var bottles: UILabel!
