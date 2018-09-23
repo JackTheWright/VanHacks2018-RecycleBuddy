@@ -253,14 +253,6 @@
                                 <color key="textColor" red="0.015686274510000001" green="0.015686274510000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu Button" translatesAutoresizingMaskIntoConstraints="NO" id="Aib-ij-S9G">
-                                <rect key="frame" x="343" y="37" width="16" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="kh1-z8-wWs" appends="YES" id="f5m-g7-o6j"/>
-                                </connections>
-                            </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backarrowblue" translatesAutoresizingMaskIntoConstraints="NO" id="Qwg-Ys-NQZ">
                                 <rect key="frame" x="16" y="36" width="16" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -306,11 +298,6 @@
                 <tapGestureRecognizer id="3HZ-7P-Zyn">
                     <connections>
                         <segue destination="2LX-AN-owd" kind="show" id="6GU-wl-iGB"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="kh1-z8-wWs">
-                    <connections>
-                        <segue destination="eJe-4B-JXr" kind="show" id="82b-e7-llN"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -432,14 +419,6 @@
                                 <color key="textColor" red="0.015686274510000001" green="0.015686274510000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu Button" translatesAutoresizingMaskIntoConstraints="NO" id="a8f-aT-G5v">
-                                <rect key="frame" x="343" y="33" width="16" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="h1q-RJ-OVG" appends="YES" id="kO3-qF-bhM"/>
-                                </connections>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="or insert a custom size:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vk-Aw-V0y">
                                 <rect key="frame" x="24" y="492" width="327" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -667,14 +646,6 @@
                                 <color key="textColor" red="0.015686274510000001" green="0.015686274510000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu Button" translatesAutoresizingMaskIntoConstraints="NO" id="QTH-w4-zwA">
-                                <rect key="frame" x="343" y="33" width="16" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Uhd-6N-xMn" appends="YES" id="igd-3W-Eqo"/>
-                                </connections>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="How many bottles did you recycle today?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nN8-yd-kWA">
                                 <rect key="frame" x="24" y="73" width="327" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -852,14 +823,6 @@
                                 <color key="textColor" red="0.015686274510000001" green="0.015686274510000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu Button" translatesAutoresizingMaskIntoConstraints="NO" id="bbY-gf-Ceb">
-                                <rect key="frame" x="343" y="33" width="16" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Cgr-2D-owA" appends="YES" id="r7P-7V-vqx"/>
-                                </connections>
-                            </imageView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5VS-4w-R6c">
                                 <rect key="frame" x="165" y="534" width="68" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1073,21 +1036,11 @@
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECYCLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXq-1l-vX9">
-                                <rect key="frame" x="157" y="33" width="60" height="19"/>
+                                <rect key="frame" x="157.5" y="33" width="60" height="19"/>
                                 <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
                                 <color key="textColor" red="0.015686274510000001" green="0.015686274510000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Menu Button" translatesAutoresizingMaskIntoConstraints="NO" id="3Ba-ae-7dt">
-                                <rect key="frame" x="343" y="33" width="16" height="14"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="14" id="mtC-zb-ggw"/>
-                                </constraints>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="m6q-Gb-jgE" appends="YES" id="o2M-OT-aEC"/>
-                                </connections>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="591 mL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXK-nu-P9j">
                                 <rect key="frame" x="40" y="449" width="68" height="40"/>
                                 <constraints>
@@ -1194,7 +1147,6 @@
                             <constraint firstItem="uXc-4k-y2D" firstAttribute="top" secondItem="jXq-1l-vX9" secondAttribute="top" id="OQM-QZ-Lar"/>
                             <constraint firstItem="sXK-nu-P9j" firstAttribute="top" secondItem="a3s-MJ-1en" secondAttribute="bottom" constant="5" id="PPm-mU-mm7"/>
                             <constraint firstItem="ns6-oO-oCn" firstAttribute="top" secondItem="uXc-4k-y2D" secondAttribute="bottom" constant="24" id="PYx-bo-qWw"/>
-                            <constraint firstItem="jXq-1l-vX9" firstAttribute="top" secondItem="3Ba-ae-7dt" secondAttribute="top" id="RK6-Nd-M1B"/>
                             <constraint firstItem="Ml3-af-DYG" firstAttribute="baseline" secondItem="rV3-Fb-RLD" secondAttribute="firstBaseline" id="S80-e6-w72"/>
                             <constraint firstItem="Ml3-af-DYG" firstAttribute="top" secondItem="Rhw-Lv-Bin" secondAttribute="bottom" constant="37" id="SCd-tf-MF9"/>
                             <constraint firstItem="LFg-cT-wd3" firstAttribute="centerX" secondItem="7b8-GH-AsZ" secondAttribute="centerX" id="SVV-Er-boi"/>
@@ -1208,7 +1160,6 @@
                             <constraint firstItem="7b8-GH-AsZ" firstAttribute="leading" secondItem="a3s-MJ-1en" secondAttribute="trailing" constant="52" id="akE-XN-lIl"/>
                             <constraint firstItem="Rhw-Lv-Bin" firstAttribute="leading" secondItem="Wqp-g9-GV0" secondAttribute="trailing" constant="26" id="dtX-d4-f4i"/>
                             <constraint firstItem="ns6-oO-oCn" firstAttribute="trailing" secondItem="2Rf-ez-fPs" secondAttribute="trailing" id="eCi-JK-YwG"/>
-                            <constraint firstItem="3Ba-ae-7dt" firstAttribute="trailing" secondItem="rec-qD-Bee" secondAttribute="trailingMargin" id="eDS-OI-UoO"/>
                             <constraint firstItem="LFg-cT-wd3" firstAttribute="bottom" secondItem="yaK-fz-y0n" secondAttribute="bottom" id="f4h-gA-G66"/>
                             <constraint firstItem="qEc-sj-hDg" firstAttribute="leading" secondItem="sXK-nu-P9j" secondAttribute="trailing" constant="53" id="f7p-w4-Iau"/>
                             <constraint firstItem="Ml3-af-DYG" firstAttribute="top" secondItem="rV3-Fb-RLD" secondAttribute="top" id="gRw-cb-7Ax"/>
@@ -1292,7 +1243,6 @@
         <image name="GlassRecycle1" width="44" height="167"/>
         <image name="GlassRecycle2" width="71" height="235"/>
         <image name="GlassRecycle3" width="51" height="194"/>
-        <image name="Menu Button" width="16" height="16"/>
         <image name="PaperRecycle1" width="89" height="137"/>
         <image name="PaperRecycle2" width="96" height="172"/>
         <image name="PaperRecycle3" width="109" height="214"/>
@@ -1302,7 +1252,7 @@
         <image name="backarrowblue" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="b8L-ia-WQb"/>
-        <segue reference="eCG-Up-Ucr"/>
+        <segue reference="bx7-2h-ClV"/>
+        <segue reference="nW2-YH-3JP"/>
     </inferredMetricsTieBreakers>
 </document>

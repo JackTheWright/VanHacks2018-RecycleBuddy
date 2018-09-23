@@ -76,10 +76,10 @@ class AluminumAddVC: UIViewController {
         let lowCount = Int(smallLabel.text ?? "0")! * 355
         var cusCount = Int()
         if global.units == "L" {
-            cusCount = Int(keypad.text ?? "0")! * 1000
+            cusCount = (Int(keypad.text ?? "0") ?? 0) * 1000
         }
         else {
-            cusCount = Int(keypad.text ?? "0")!
+            cusCount = Int(keypad.text ?? "0") ?? 0
         }
         let bottlescore = floor(Double(bigCount + midCount + lowCount + cusCount) / 500)
         UserDefaults.standard.set(bottlescore, forKey: "bottleScore")

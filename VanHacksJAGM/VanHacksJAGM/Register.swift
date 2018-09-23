@@ -55,6 +55,7 @@ class RegistrationVC: UIViewController {
         passconf.text! = ""
         email.text! = ""
         registration.text! = "Registration Complete!"
+        UserDefaults.standard.set(0, forKey: "totalScore")
     }
 }
     

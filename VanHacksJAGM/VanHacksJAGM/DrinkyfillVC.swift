@@ -83,7 +83,7 @@ class DrinkyFillVC: UIViewController {
             cusCount = Int(keybored.text ?? "0")! * 1000
         }
         else {
-            cusCount = Int(keybored.text ?? "0")!
+            cusCount = Int(keybored.text ?? "0") ?? 0
         }
         let bottlescore = floor(Double(bigCount + midCount + lowCount + cusCount) / 500)
         var totalScore = UserDefaults.standard.integer(forKey: "totalScore")
