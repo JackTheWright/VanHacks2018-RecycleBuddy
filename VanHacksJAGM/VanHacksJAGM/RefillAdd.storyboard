@@ -132,6 +132,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu Button" translatesAutoresizingMaskIntoConstraints="NO" id="vlL-5l-eCc">
                                 <rect key="frame" x="343" y="26" width="16" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="d1a-6p-9F3" appends="YES" id="qtl-2G-hZL"/>
+                                </connections>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="How much liquid did you drink today?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRQ-Ne-CdA">
                                 <rect key="frame" x="24" y="66" width="327" height="96"/>
@@ -182,8 +186,21 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tDk-y0-Z6X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="d1a-6p-9F3">
+                    <connections>
+                        <segue destination="WCU-dB-rjl" kind="show" id="aEJ-MG-mCC"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="82" y="97"/>
+        </scene>
+        <!--MenuDropDown-->
+        <scene sceneID="RSG-vn-F8h">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MenuDropDown" id="WCU-dB-rjl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U0k-Ug-hyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="599" y="-216"/>
         </scene>
     </scenes>
     <resources>
