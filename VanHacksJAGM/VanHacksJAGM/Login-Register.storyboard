@@ -23,7 +23,7 @@
         <!--LoginVC-->
         <scene sceneID="WL1-uD-r8l">
             <objects>
-                <viewController id="M04-ol-mVG" customClass="LoginVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" id="M04-ol-mVG" customClass="LoginVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y8c-8w-SSx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -131,6 +131,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login failed. Username or password was wrong." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4U-uD-Kxk">
+                                <rect key="frame" x="24" y="177" width="335" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="11"/>
+                                <color key="textColor" red="1" green="0.058155415100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -178,8 +185,9 @@
                         <viewLayoutGuide key="safeArea" id="Qlv-7L-XS2"/>
                     </view>
                     <connections>
-                        <outlet property="emailField" destination="Y9Q-vH-BYN" id="qr1-8V-yP0"/>
-                        <outlet property="passwordField" destination="QSn-3E-GkB" id="6nj-ig-0Jy"/>
+                        <outlet property="emailField" destination="Y9Q-vH-BYN" id="ATm-jt-H9s"/>
+                        <outlet property="incorrectPass" destination="P4U-uD-Kxk" id="cGA-wg-Ycu"/>
+                        <outlet property="passwordField" destination="QSn-3E-GkB" id="ZwN-ej-K1f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ul9-zx-8wm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -350,7 +358,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0HV-sB-aLg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="fl1-9n-zjf"/>
+                <tapGestureRecognizer id="fl1-9n-zjf">
+                    <connections>
+                        <segue destination="M04-ol-mVG" kind="show" id="L1F-Sr-jjp"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="536.79999999999995" y="-16.641679160419791"/>
         </scene>

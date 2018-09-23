@@ -8,6 +8,11 @@
 
 import UIKit
 
+struct global {
+    static var email=""
+}
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

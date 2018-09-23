@@ -36,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="-642" y="-177"/>
         </scene>
-        <!--Refill Or RecycleVC-->
+        <!--RefillOrRecycle-->
         <scene sceneID="8CV-ef-zGd">
             <objects>
-                <viewController id="gy9-id-A0q" customClass="RefillOrRecycleVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RefillorRecycle" title="RefillOrRecycle" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gy9-id-A0q" customClass="RefillOrRecycleVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kr7-3B-1bo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
