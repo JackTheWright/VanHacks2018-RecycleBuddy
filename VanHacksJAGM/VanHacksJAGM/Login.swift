@@ -18,17 +18,17 @@ class LoginVC: UIViewController {
     self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
     }
     
-    @IBOutlet weak var yeet: UITextField!
-    @IBOutlet weak var yoot: UITextField!
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
     
-    @IBAction func sub(_ sender: UIButton) {
+    @IBAction func signIn(_ sender: UIButton) {
         let myUrl = URL(string: "https://aqueous-forest-88166.herokuapp.com/"+"login");
         
         var request = URLRequest(url:myUrl!)
         
         request.httpMethod = "POST"// Compose a query string
         
-        let postString = "email=" + yeet.text! + "&password=" + yoot.text!;
+        let postString = "email=" + emailField.text! + "&password=" + passwordField.text!;
         
         request.httpBody = postString.data(using: String.Encoding.utf8);
         
@@ -63,7 +63,15 @@ class LoginVC: UIViewController {
         }
         task.resume()
     }
+
+        
 }
+    
+
+    
+    
+
+
     
  
     

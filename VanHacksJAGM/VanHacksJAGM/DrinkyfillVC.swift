@@ -77,13 +77,18 @@ class DrinkyFillVC: UIViewController {
     
     
     @IBAction func Submit(_ sender: UIButton) {
-        let bigCount = Int(largeLabel.text ?? "0") ?? 0 * 2000
-        let midCount = Int(mediumLabel.text ?? "0") ?? 0 * 1000
-        let lowCount = Int(smallLabel.text ?? "0") ?? 0 * 500
+        let bigCount = Int(largeLabel.text ?? "0")! * 2000
+        let midCount = Int(mediumLabel.text ?? "0")! * 1000
+        let lowCount = Int(smallLabel.text ?? "0")! * 500
         let bottlescore = (bigCount + midCount + lowCount) / 500
         var totalScore = UserDefaults.standard.integer(forKey: "totalScore")
         totalScore = totalScore + bottlescore
         UserDefaults.standard.set(totalScore, forKey: "totalScore")
+        largeLabel.text = "0"
+        mediumLabel.text = "0"
+        smallLabel.text = "0"
+        keybored.text = ""
+        OZ2ML.selectedSegmentIndex = 0
         
         
     }
