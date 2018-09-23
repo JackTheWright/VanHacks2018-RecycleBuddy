@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104C8EF62157437A0026C97F /* GlassAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EF2215743790026C97F /* GlassAddVC.swift */; };
+		104C8EF72157437A0026C97F /* PlasticAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EF32157437A0026C97F /* PlasticAddVC.swift */; };
+		104C8EF82157437A0026C97F /* AluminumAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EF42157437A0026C97F /* AluminumAddVC.swift */; };
+		104C8EF92157437A0026C97F /* PaperAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EF52157437A0026C97F /* PaperAddVC.swift */; };
+		104C8EFE215743AD0026C97F /* RecycleAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EFA215743AC0026C97F /* RecycleAddVC.swift */; };
+		104C8EFF215743AD0026C97F /* RefillAdd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104C8EFB215743AD0026C97F /* RefillAdd.storyboard */; };
+		104C8F00215743AD0026C97F /* RefillAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8EFC215743AD0026C97F /* RefillAddVC.swift */; };
+		104C8F01215743AD0026C97F /* RefillorRecycle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104C8EFD215743AD0026C97F /* RefillorRecycle.storyboard */; };
+		104C8F03215743B60026C97F /* RecycleAdd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104C8F02215743B60026C97F /* RecycleAdd.storyboard */; };
+		104C8F05215744930026C97F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C8F04215744930026C97F /* Login.swift */; };
+		10ED124D2156B678005818D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED124C2156B678005818D9 /* AppDelegate.swift */; };
+		10ED12522156B678005818D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12502156B678005818D9 /* Main.storyboard */; };
+		10ED12542156B679005818D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12532156B679005818D9 /* Assets.xcassets */; };
+		10ED12572156B679005818D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12552156B679005818D9 /* LaunchScreen.storyboard */; };
+		10ED12622156B679005818D9 /* VanHacksJAGMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED12612156B679005818D9 /* VanHacksJAGMTests.swift */; };
+		10ED126D2156B679005818D9 /* VanHacksJAGMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED126C2156B679005818D9 /* VanHacksJAGMUITests.swift */; };
+		10ED128A2156C079005818D9 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED127D2156C079005818D9 /* Roboto-Medium.ttf */; };
+		10ED128B2156C079005818D9 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED127E2156C079005818D9 /* Roboto-Light.ttf */; };
+		10ED128C2156C079005818D9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED127F2156C079005818D9 /* Roboto-Regular.ttf */; };
+		10ED128D2156C079005818D9 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12802156C079005818D9 /* Roboto-MediumItalic.ttf */; };
+		10ED128E2156C079005818D9 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12812156C079005818D9 /* Roboto-ThinItalic.ttf */; };
+		10ED128F2156C079005818D9 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12822156C079005818D9 /* Roboto-BoldItalic.ttf */; };
+		10ED12902156C079005818D9 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12832156C079005818D9 /* Roboto-LightItalic.ttf */; };
+		10ED12912156C079005818D9 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12842156C079005818D9 /* Roboto-Italic.ttf */; };
+		10ED12922156C079005818D9 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12852156C079005818D9 /* LICENSE.txt */; };
+		10ED12932156C079005818D9 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12862156C079005818D9 /* Roboto-BlackItalic.ttf */; };
+		10ED12942156C079005818D9 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12872156C079005818D9 /* Roboto-Bold.ttf */; };
+		10ED12952156C079005818D9 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12882156C079005818D9 /* Roboto-Thin.ttf */; };
+		10ED12962156C079005818D9 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12892156C079005818D9 /* Roboto-Black.ttf */; };
+		10ED12A02156C3ED005818D9 /* CanIRecycleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED129F2156C3ED005818D9 /* CanIRecycleVC.swift */; };
+		10ED12A6215705DA005818D9 /* DrinkyFill.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12A5215705DA005818D9 /* DrinkyFill.storyboard */; };
+		10ED12A821570839005818D9 /* DrinkyfillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED12A721570839005818D9 /* DrinkyfillVC.swift */; };
+		10ED12AA21572955005818D9 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED12A921572955005818D9 /* Register.swift */; };
+		182971732156CD5E0054D927 /* Login-Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182971722156CD5E0054D927 /* Login-Register.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10ED125E2156B679005818D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10ED12412156B677005818D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10ED12482156B677005818D9;
+			remoteInfo = VanHacksJAGM;
+		};
+		10ED12692156B679005818D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10ED12412156B677005818D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10ED12482156B677005818D9;
+			remoteInfo = VanHacksJAGM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104C8EF2215743790026C97F /* GlassAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlassAddVC.swift; path = ../../../dumbalex/guyiuoiyiuy/GlassAddVC.swift; sourceTree = "<group>"; };
+		104C8EF32157437A0026C97F /* PlasticAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlasticAddVC.swift; path = ../../../dumbalex/guyiuoiyiuy/PlasticAddVC.swift; sourceTree = "<group>"; };
+		104C8EF42157437A0026C97F /* AluminumAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AluminumAddVC.swift; path = ../../../dumbalex/guyiuoiyiuy/AluminumAddVC.swift; sourceTree = "<group>"; };
+		104C8EF52157437A0026C97F /* PaperAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaperAddVC.swift; path = ../../../dumbalex/guyiuoiyiuy/PaperAddVC.swift; sourceTree = "<group>"; };
+		104C8EFA215743AC0026C97F /* RecycleAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecycleAddVC.swift; path = ../../../dumbalex/guyiuoiyiuy/RecycleAddVC.swift; sourceTree = "<group>"; };
+		104C8EFB215743AD0026C97F /* RefillAdd.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RefillAdd.storyboard; sourceTree = "<group>"; };
+		104C8EFC215743AD0026C97F /* RefillAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefillAddVC.swift; sourceTree = "<group>"; };
+		104C8EFD215743AD0026C97F /* RefillorRecycle.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RefillorRecycle.storyboard; path = ../../../dumbalex/guyiuoiyiuy/RefillorRecycle.storyboard; sourceTree = "<group>"; };
+		104C8F02215743B60026C97F /* RecycleAdd.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RecycleAdd.storyboard; sourceTree = "<group>"; };
+		104C8F04215744930026C97F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		10ED12492156B678005818D9 /* VanHacksJAGM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanHacksJAGM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ED124C2156B678005818D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10ED12512156B678005818D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10ED12532156B679005818D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10ED12562156B679005818D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10ED12582156B679005818D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ED125D2156B679005818D9 /* VanHacksJAGMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanHacksJAGMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ED12612156B679005818D9 /* VanHacksJAGMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanHacksJAGMTests.swift; sourceTree = "<group>"; };
+		10ED12632156B679005818D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ED12682156B679005818D9 /* VanHacksJAGMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanHacksJAGMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ED126C2156B679005818D9 /* VanHacksJAGMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanHacksJAGMUITests.swift; sourceTree = "<group>"; };
+		10ED126E2156B679005818D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ED127D2156C079005818D9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		10ED127E2156C079005818D9 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		10ED127F2156C079005818D9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		10ED12802156C079005818D9 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		10ED12812156C079005818D9 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		10ED12822156C079005818D9 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		10ED12832156C079005818D9 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		10ED12842156C079005818D9 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		10ED12852156C079005818D9 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		10ED12862156C079005818D9 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		10ED12872156C079005818D9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		10ED12882156C079005818D9 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		10ED12892156C079005818D9 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		10ED129F2156C3ED005818D9 /* CanIRecycleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanIRecycleVC.swift; sourceTree = "<group>"; };
+		10ED12A5215705DA005818D9 /* DrinkyFill.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DrinkyFill.storyboard; sourceTree = "<group>"; };
+		10ED12A721570839005818D9 /* DrinkyfillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkyfillVC.swift; sourceTree = "<group>"; };
+		10ED12A921572955005818D9 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		182971722156CD5E0054D927 /* Login-Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Login-Register.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10ED12462156B677005818D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED125A2156B679005818D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED12652156B679005818D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10ED12402156B677005818D9 = {
+			isa = PBXGroup;
+			children = (
+				10ED124B2156B678005818D9 /* VanHacksJAGM */,
+				10ED12602156B679005818D9 /* VanHacksJAGMTests */,
+				10ED126B2156B679005818D9 /* VanHacksJAGMUITests */,
+				10ED124A2156B678005818D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10ED124A2156B678005818D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10ED12492156B678005818D9 /* VanHacksJAGM.app */,
+				10ED125D2156B679005818D9 /* VanHacksJAGMTests.xctest */,
+				10ED12682156B679005818D9 /* VanHacksJAGMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10ED124B2156B678005818D9 /* VanHacksJAGM */ = {
+			isa = PBXGroup;
+			children = (
+				10ED12A921572955005818D9 /* Register.swift */,
+				10ED124C2156B678005818D9 /* AppDelegate.swift */,
+				10ED12502156B678005818D9 /* Main.storyboard */,
+				182971722156CD5E0054D927 /* Login-Register.storyboard */,
+				10ED12A5215705DA005818D9 /* DrinkyFill.storyboard */,
+				104C8EFA215743AC0026C97F /* RecycleAddVC.swift */,
+				104C8F02215743B60026C97F /* RecycleAdd.storyboard */,
+				104C8EFB215743AD0026C97F /* RefillAdd.storyboard */,
+				104C8EFC215743AD0026C97F /* RefillAddVC.swift */,
+				104C8EFD215743AD0026C97F /* RefillorRecycle.storyboard */,
+				10ED12A721570839005818D9 /* DrinkyfillVC.swift */,
+				104C8EF42157437A0026C97F /* AluminumAddVC.swift */,
+				104C8EF2215743790026C97F /* GlassAddVC.swift */,
+				104C8EF52157437A0026C97F /* PaperAddVC.swift */,
+				104C8EF32157437A0026C97F /* PlasticAddVC.swift */,
+				10ED129F2156C3ED005818D9 /* CanIRecycleVC.swift */,
+				10ED12532156B679005818D9 /* Assets.xcassets */,
+				10ED12552156B679005818D9 /* LaunchScreen.storyboard */,
+				10ED12582156B679005818D9 /* Info.plist */,
+				10ED127C2156C079005818D9 /* Roboto */,
+				104C8F04215744930026C97F /* Login.swift */,
+			);
+			path = VanHacksJAGM;
+			sourceTree = "<group>";
+		};
+		10ED12602156B679005818D9 /* VanHacksJAGMTests */ = {
+			isa = PBXGroup;
+			children = (
+				10ED12612156B679005818D9 /* VanHacksJAGMTests.swift */,
+				10ED12632156B679005818D9 /* Info.plist */,
+			);
+			path = VanHacksJAGMTests;
+			sourceTree = "<group>";
+		};
+		10ED126B2156B679005818D9 /* VanHacksJAGMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10ED126C2156B679005818D9 /* VanHacksJAGMUITests.swift */,
+				10ED126E2156B679005818D9 /* Info.plist */,
+			);
+			path = VanHacksJAGMUITests;
+			sourceTree = "<group>";
+		};
+		10ED127C2156C079005818D9 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				10ED127D2156C079005818D9 /* Roboto-Medium.ttf */,
+				10ED127E2156C079005818D9 /* Roboto-Light.ttf */,
+				10ED127F2156C079005818D9 /* Roboto-Regular.ttf */,
+				10ED12802156C079005818D9 /* Roboto-MediumItalic.ttf */,
+				10ED12812156C079005818D9 /* Roboto-ThinItalic.ttf */,
+				10ED12822156C079005818D9 /* Roboto-BoldItalic.ttf */,
+				10ED12832156C079005818D9 /* Roboto-LightItalic.ttf */,
+				10ED12842156C079005818D9 /* Roboto-Italic.ttf */,
+				10ED12852156C079005818D9 /* LICENSE.txt */,
+				10ED12862156C079005818D9 /* Roboto-BlackItalic.ttf */,
+				10ED12872156C079005818D9 /* Roboto-Bold.ttf */,
+				10ED12882156C079005818D9 /* Roboto-Thin.ttf */,
+				10ED12892156C079005818D9 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10ED12482156B677005818D9 /* VanHacksJAGM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ED12712156B679005818D9 /* Build configuration list for PBXNativeTarget "VanHacksJAGM" */;
+			buildPhases = (
+				10ED12452156B677005818D9 /* Sources */,
+				10ED12462156B677005818D9 /* Frameworks */,
+				10ED12472156B677005818D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VanHacksJAGM;
+			productName = VanHacksJAGM;
+			productReference = 10ED12492156B678005818D9 /* VanHacksJAGM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10ED125C2156B679005818D9 /* VanHacksJAGMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ED12742156B679005818D9 /* Build configuration list for PBXNativeTarget "VanHacksJAGMTests" */;
+			buildPhases = (
+				10ED12592156B679005818D9 /* Sources */,
+				10ED125A2156B679005818D9 /* Frameworks */,
+				10ED125B2156B679005818D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10ED125F2156B679005818D9 /* PBXTargetDependency */,
+			);
+			name = VanHacksJAGMTests;
+			productName = VanHacksJAGMTests;
+			productReference = 10ED125D2156B679005818D9 /* VanHacksJAGMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10ED12672156B679005818D9 /* VanHacksJAGMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ED12772156B679005818D9 /* Build configuration list for PBXNativeTarget "VanHacksJAGMUITests" */;
+			buildPhases = (
+				10ED12642156B679005818D9 /* Sources */,
+				10ED12652156B679005818D9 /* Frameworks */,
+				10ED12662156B679005818D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10ED126A2156B679005818D9 /* PBXTargetDependency */,
+			);
+			name = VanHacksJAGMUITests;
+			productName = VanHacksJAGMUITests;
+			productReference = 10ED12682156B679005818D9 /* VanHacksJAGMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10ED12412156B677005818D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Jagms;
+				TargetAttributes = {
+					10ED12482156B677005818D9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					10ED125C2156B679005818D9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 10ED12482156B677005818D9;
+					};
+					10ED12672156B679005818D9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 10ED12482156B677005818D9;
+					};
+				};
+			};
+			buildConfigurationList = 10ED12442156B677005818D9 /* Build configuration list for PBXProject "VanHacksJAGM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10ED12402156B677005818D9;
+			productRefGroup = 10ED124A2156B678005818D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10ED12482156B677005818D9 /* VanHacksJAGM */,
+				10ED125C2156B679005818D9 /* VanHacksJAGMTests */,
+				10ED12672156B679005818D9 /* VanHacksJAGMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10ED12472156B677005818D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ED12952156C079005818D9 /* Roboto-Thin.ttf in Resources */,
+				182971732156CD5E0054D927 /* Login-Register.storyboard in Resources */,
+				104C8F03215743B60026C97F /* RecycleAdd.storyboard in Resources */,
+				10ED128A2156C079005818D9 /* Roboto-Medium.ttf in Resources */,
+				10ED12912156C079005818D9 /* Roboto-Italic.ttf in Resources */,
+				10ED12942156C079005818D9 /* Roboto-Bold.ttf in Resources */,
+				10ED12902156C079005818D9 /* Roboto-LightItalic.ttf in Resources */,
+				10ED12962156C079005818D9 /* Roboto-Black.ttf in Resources */,
+				104C8F01215743AD0026C97F /* RefillorRecycle.storyboard in Resources */,
+				10ED12932156C079005818D9 /* Roboto-BlackItalic.ttf in Resources */,
+				10ED128C2156C079005818D9 /* Roboto-Regular.ttf in Resources */,
+				10ED12922156C079005818D9 /* LICENSE.txt in Resources */,
+				10ED128B2156C079005818D9 /* Roboto-Light.ttf in Resources */,
+				10ED128D2156C079005818D9 /* Roboto-MediumItalic.ttf in Resources */,
+				104C8EFF215743AD0026C97F /* RefillAdd.storyboard in Resources */,
+				10ED12572156B679005818D9 /* LaunchScreen.storyboard in Resources */,
+				10ED128E2156C079005818D9 /* Roboto-ThinItalic.ttf in Resources */,
+				10ED12A6215705DA005818D9 /* DrinkyFill.storyboard in Resources */,
+				10ED12542156B679005818D9 /* Assets.xcassets in Resources */,
+				10ED128F2156C079005818D9 /* Roboto-BoldItalic.ttf in Resources */,
+				10ED12522156B678005818D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED125B2156B679005818D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED12662156B679005818D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10ED12452156B677005818D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104C8EFE215743AD0026C97F /* RecycleAddVC.swift in Sources */,
+				104C8EF82157437A0026C97F /* AluminumAddVC.swift in Sources */,
+				104C8EF92157437A0026C97F /* PaperAddVC.swift in Sources */,
+				10ED124D2156B678005818D9 /* AppDelegate.swift in Sources */,
+				104C8F00215743AD0026C97F /* RefillAddVC.swift in Sources */,
+				10ED12AA21572955005818D9 /* Register.swift in Sources */,
+				10ED12A02156C3ED005818D9 /* CanIRecycleVC.swift in Sources */,
+				104C8EF72157437A0026C97F /* PlasticAddVC.swift in Sources */,
+				10ED12A821570839005818D9 /* DrinkyfillVC.swift in Sources */,
+				104C8F05215744930026C97F /* Login.swift in Sources */,
+				104C8EF62157437A0026C97F /* GlassAddVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED12592156B679005818D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ED12622156B679005818D9 /* VanHacksJAGMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED12642156B679005818D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ED126D2156B679005818D9 /* VanHacksJAGMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10ED125F2156B679005818D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10ED12482156B677005818D9 /* VanHacksJAGM */;
+			targetProxy = 10ED125E2156B679005818D9 /* PBXContainerItemProxy */;
+		};
+		10ED126A2156B679005818D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10ED12482156B677005818D9 /* VanHacksJAGM */;
+			targetProxy = 10ED12692156B679005818D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10ED12502156B678005818D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ED12512156B678005818D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10ED12552156B679005818D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ED12562156B679005818D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10ED126F2156B679005818D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10ED12702156B679005818D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10ED12722156B679005818D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTUWJ9Q64Z;
+				INFOPLIST_FILE = VanHacksJAGM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jagms.VanHacksJAGM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10ED12732156B679005818D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTUWJ9Q64Z;
+				INFOPLIST_FILE = VanHacksJAGM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jagms.VanHacksJAGM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10ED12752156B679005818D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTUWJ9Q64Z;
+				INFOPLIST_FILE = VanHacksJAGMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jagms.VanHacksJAGMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VanHacksJAGM.app/VanHacksJAGM";
+			};
+			name = Debug;
+		};
+		10ED12762156B679005818D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTUWJ9Q64Z;
+				INFOPLIST_FILE = VanHacksJAGMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jagms.VanHacksJAGMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VanHacksJAGM.app/VanHacksJAGM";
+			};
+			name = Release;
+		};
+		10ED12782156B679005818D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTUWJ9Q64Z;
+				INFOPLIST_FILE = VanHacksJAGMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jagms.VanHacksJAGMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VanHacksJAGM;
+			};
+			name = Debug;
+		};
+		10ED12792156B679005818D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTUWJ9Q64Z;
+				INFOPLIST_FILE = VanHacksJAGMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jagms.VanHacksJAGMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VanHacksJAGM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10ED12442156B677005818D9 /* Build configuration list for PBXProject "VanHacksJAGM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ED126F2156B679005818D9 /* Debug */,
+				10ED12702156B679005818D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10ED12712156B679005818D9 /* Build configuration list for PBXNativeTarget "VanHacksJAGM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ED12722156B679005818D9 /* Debug */,
+				10ED12732156B679005818D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10ED12742156B679005818D9 /* Build configuration list for PBXNativeTarget "VanHacksJAGMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ED12752156B679005818D9 /* Debug */,
+				10ED12762156B679005818D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10ED12772156B679005818D9 /* Build configuration list for PBXNativeTarget "VanHacksJAGMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ED12782156B679005818D9 /* Debug */,
+				10ED12792156B679005818D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10ED12412156B677005818D9 /* Project object */;
+}
