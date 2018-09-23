@@ -56,17 +56,15 @@ class PlasticAddVC: UIViewController {
 
     
     @IBAction func Switcher(_ sender: Any) {
-        var units = ""
         switch Oz2mL.selectedSegmentIndex
         {
         case 0:
-            units = "Oz"
+            global.units = "L"
         case 1:
-            units = "mL"
+            global.units = "mL"
         default:
             break
         }
-        print(units)
         
     }
     @IBAction func Reset(_ sender: UIButton) {
@@ -83,10 +81,17 @@ class PlasticAddVC: UIViewController {
         print(bigCount)
         let midCount = Int(mediumLabel.text ?? "0")! * 1000
         let lowCount = Int(smallLabel.text ?? "0")! * 500
-        let bottlescore = (bigCount + midCount + lowCount) / 500
+        var cusCount = Int()
+        if global.units == "L" {
+            cusCount = Int(keypad.text ?? "0")! * 1000
+        }
+        else {
+            cusCount = Int(keypad.text ?? "0")!
+        }
+        let bottlescore = floor(Double(bigCount + midCount + lowCount + cusCount) / 500)
         UserDefaults.standard.set(bottlescore, forKey: "bottleScore")
         var totalScore = UserDefaults.standard.integer(forKey: "totalScore")
-        totalScore = totalScore + bottlescore
+        totalScore = totalScore + Int(bottlescore)
         print(totalScore)
         UserDefaults.standard.set(totalScore, forKey: "totalScore")
         largeLabel.text = "0"

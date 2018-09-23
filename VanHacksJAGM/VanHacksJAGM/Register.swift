@@ -15,8 +15,10 @@ class RegistrationVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
+        registration.text=""
     }
     
+    @IBOutlet weak var registration: UILabel!
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var email:UITextField!
     @IBOutlet weak var pass:UITextField!
@@ -47,6 +49,12 @@ class RegistrationVC: UIViewController {
             //Let's convert response sent from a server side script to a NSDictionary object:
         }
         task.resume()
+        
+        pass.text! = ""
+        name.text! = ""
+        passconf.text! = ""
+        email.text! = ""
+        registration.text! = "Registration Complete!"
     }
 }
     

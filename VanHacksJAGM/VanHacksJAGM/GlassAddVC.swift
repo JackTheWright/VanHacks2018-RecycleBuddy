@@ -50,17 +50,15 @@ class GlassAddVC: UIViewController {
     
     
     @IBAction func Switcher(_ sender: Any) {
-        var units = ""
         switch Oz2mL.selectedSegmentIndex
         {
         case 0:
-            units = "Oz"
+            global.units = "L"
         case 1:
-            units = "mL"
+            global.units = "mL"
         default:
             break
         }
-        print(units)
         
     }
     
@@ -77,7 +75,14 @@ class GlassAddVC: UIViewController {
         let bigCount = Int(largeLabel.text ?? "0")! * 750
         let midCount = Int(mediumLabel.text ?? "0")! * 500
         let lowCount = Int(smallLabel.text ?? "0")! * 350
-        let bottlescore = floor(Double(bigCount + midCount + lowCount) / 500)
+        var cusCount = Int()
+        if global.units == "L" {
+            cusCount = Int(keypad.text ?? "0")! * 1000
+        }
+        else {
+            cusCount = Int(keypad.text ?? "0")!
+        }
+        let bottlescore = floor(Double(bigCount + midCount + lowCount + cusCount) / 500)
         print(bottlescore)
         UserDefaults.standard.set(bottlescore, forKey: "bottleScore")
             print(UserDefaults.standard.integer(forKey: "bottleScore"))

@@ -52,17 +52,15 @@ class DrinkyFillVC: UIViewController {
     
     
     @IBAction func Switcher(_ sender: Any) {
-        var units = ""
         switch OZ2ML.selectedSegmentIndex
         {
         case 0:
-            units = "Oz"
+            global.units = "mL"
         case 1:
-            units = "mL"
+            global.units = "L"
         default:
             break
         }
-        print(units)
         
     }
     
@@ -80,9 +78,16 @@ class DrinkyFillVC: UIViewController {
         let bigCount = Int(largeLabel.text ?? "0")! * 2000
         let midCount = Int(mediumLabel.text ?? "0")! * 1000
         let lowCount = Int(smallLabel.text ?? "0")! * 500
-        let bottlescore = (bigCount + midCount + lowCount) / 500
+        var cusCount = Int()
+        if global.units == "L" {
+            cusCount = Int(keybored.text ?? "0")! * 1000
+        }
+        else {
+            cusCount = Int(keybored.text ?? "0")!
+        }
+        let bottlescore = floor(Double(bigCount + midCount + lowCount + cusCount) / 500)
         var totalScore = UserDefaults.standard.integer(forKey: "totalScore")
-        totalScore = totalScore + bottlescore
+        totalScore = totalScore + Int(bottlescore)
         UserDefaults.standard.set(totalScore, forKey: "totalScore")
         largeLabel.text = "0"
         mediumLabel.text = "0"

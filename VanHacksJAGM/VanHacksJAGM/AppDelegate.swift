@@ -12,6 +12,7 @@ struct global {
     static var email=""
     static var fullname=""
     static var mlsaved=""
+    static var units=""
 }
 
 
