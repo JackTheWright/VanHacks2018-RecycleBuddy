@@ -31,7 +31,7 @@
         <!--DrinkyFill-->
         <scene sceneID="LKm-KP-r0n">
             <objects>
-                <viewControllerPlaceholder storyboardName="DrinkyFill" id="3wJ-lt-Tsa" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="DrinkyFill" storyboardName="DrinkyFill" id="3wJ-lt-Tsa" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WH9-xm-Zry" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-642" y="-177"/>

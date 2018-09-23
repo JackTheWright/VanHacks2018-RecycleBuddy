@@ -61,6 +61,7 @@ class LoginVC: UIViewController {
                     print("email: \(String(describing: global.email))")
                     let fullname = parseJSON["fullname"] as? String
                     print("fullname: \(String(describing: fullname))")
+                    UserDefaults.standard.set(fullname, forKey: "name")
                     let mlsaved = parseJSON["mlsaved"] as? String
                     print("mlsaved: \(String(describing: mlsaved))")
                     

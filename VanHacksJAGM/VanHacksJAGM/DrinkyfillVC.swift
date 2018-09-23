@@ -12,6 +12,8 @@ import UIKit
 
 class DrinkyFillVC: UIViewController {
     
+    let server = AddToServer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -86,6 +88,7 @@ class DrinkyFillVC: UIViewController {
             cusCount = Int(keybored.text ?? "0") ?? 0
         }
         let bottlescore = floor(Double(bigCount + midCount + lowCount + cusCount) / 500)
+        UserDefaults.standard.set(bottlescore, forKey: "bottleScore")
         var totalScore = UserDefaults.standard.integer(forKey: "totalScore")
         totalScore = totalScore + Int(bottlescore)
         UserDefaults.standard.set(totalScore, forKey: "totalScore")
@@ -95,7 +98,11 @@ class DrinkyFillVC: UIViewController {
         keybored.text = ""
         OZ2ML.selectedSegmentIndex = 0
         
+        server.scoreadd(name: global.fullname, score: totalScore)
         
+        let storyBoard: UIStoryboard = UIStoryboard(name: "RecycleAdd", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "thankyou") as! ThankYouVC
+        self.present(newViewController, animated: true, completion: nil)
     }
     
 }

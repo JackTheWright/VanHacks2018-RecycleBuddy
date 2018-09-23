@@ -10,9 +10,10 @@ import UIKit
 
 struct global {
     static var email=""
-    static var fullname=""
+    static let fullname = UserDefaults.standard.string(forKey: "name") ?? "0"
     static var mlsaved=""
     static var units=""
+    static var score = UserDefaults.standard.integer(forKey: "totalScore") 
 }
 
 

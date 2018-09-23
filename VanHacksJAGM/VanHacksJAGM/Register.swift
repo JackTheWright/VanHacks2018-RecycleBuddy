@@ -49,7 +49,7 @@ class RegistrationVC: UIViewController {
             //Let's convert response sent from a server side script to a NSDictionary object:
         }
         task.resume()
-        
+                
         pass.text! = ""
         name.text! = ""
         passconf.text! = ""
@@ -59,5 +59,35 @@ class RegistrationVC: UIViewController {
     }
 }
     
+class AddToServer {
+    
+    func scoreadd(name: String, score: Int) {
+        let myUrl = URL(string: "https://aqueous-forest-88166.herokuapp.com/"+"login");
+        
+        var request = URLRequest(url:myUrl!)
+        
+        request.httpMethod = "POST"// Compose a query string
+        
+        let postString = "name=" + String(global.fullname) + "&score=" + String(global.score);
+        
+        request.httpBody = postString.data(using: String.Encoding.utf8);
+        
+        let task = URLSession.shared.dataTask(with: request) { (data: Data?, response: URLResponse?, error: Error?) in
+            
+            if error != nil
+            {
+                print("error=\(String(describing: error))")
+                return
+            }
+            
+            // You can print out response object
+            print("response = \(String(describing: response))")
+            
+            //Let's convert response sent from a server side script to a NSDictionary object:
 
+        }
+        task.resume()
+    }
+    
+}
 

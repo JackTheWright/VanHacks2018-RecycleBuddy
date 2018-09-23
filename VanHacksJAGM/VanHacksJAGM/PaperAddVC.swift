@@ -12,6 +12,8 @@ import UIKit
 
 class PaperAddVC: UIViewController {
     
+    let server = AddToServer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -96,6 +98,9 @@ class PaperAddVC: UIViewController {
         smallLabel.text = "0"
         keypad.text = ""
         Oz2mL.selectedSegmentIndex = 0
+        
+        server.scoreadd(name: global.fullname, score: totalScore)
+        
         let storyBoard: UIStoryboard = UIStoryboard(name: "RecycleAdd", bundle: nil)
         let newViewController = storyBoard.instantiateViewController(withIdentifier: "thankyou") as! ThankYouVC
         self.present(newViewController, animated: true, completion: nil)

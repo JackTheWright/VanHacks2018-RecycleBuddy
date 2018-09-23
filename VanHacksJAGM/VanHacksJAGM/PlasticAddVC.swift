@@ -11,6 +11,8 @@ import UIKit
 
 class PlasticAddVC: UIViewController {
     
+    let server = AddToServer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
@@ -99,9 +101,13 @@ class PlasticAddVC: UIViewController {
         smallLabel.text = "0"
         keypad.text = ""
         Oz2mL.selectedSegmentIndex = 0
+        
+        server.scoreadd(name: global.fullname, score: totalScore)
+        
         let storyBoard: UIStoryboard = UIStoryboard(name: "RecycleAdd", bundle: nil)
         let newViewController = storyBoard.instantiateViewController(withIdentifier: "thankyou") as! ThankYouVC
         self.present(newViewController, animated: true, completion: nil)
+        
         
     }
     
