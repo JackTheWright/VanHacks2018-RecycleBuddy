@@ -17,10 +17,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--ProfileVC-->
         <scene sceneID="KfR-rc-YTW">
             <objects>
-                <viewController id="n4W-tU-i6o" sceneMemberID="viewController">
+                <viewController id="n4W-tU-i6o" customClass="profileVC" customModule="VanHacksJAGM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Spp-kC-gbB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="774"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,6 +187,13 @@
                         <viewLayoutGuide key="safeArea" id="wv0-JJ-Fgj"/>
                     </view>
                     <size key="freeformSize" width="375" height="774"/>
+                    <connections>
+                        <outlet property="Bags" destination="cc3-yq-vjT" id="Kdd-Kd-YKc"/>
+                        <outlet property="Leggings" destination="4KG-8d-WZG" id="jge-pa-WWW"/>
+                        <outlet property="bottleadd" destination="ss9-Pj-Rm0" id="4GJ-qA-o92"/>
+                        <outlet property="namespace" destination="s5r-lP-cAx" id="ahj-6i-5pG"/>
+                        <outlet property="shoes" destination="Vpa-0T-0Uf" id="bdY-gf-ldc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tfM-Dn-Ozo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

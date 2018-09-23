@@ -19,6 +19,7 @@
 		10DEDC6B2157746700739EEE /* RefillorRecycle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DEDC6A2157746700739EEE /* RefillorRecycle.storyboard */; };
 		10DEDC6D2157751000739EEE /* RecycleAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC6C2157751000739EEE /* RecycleAddVC.swift */; };
 		10DEDC6F21580C2600739EEE /* ThankYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC6E21580C2600739EEE /* ThankYou.swift */; };
+		10DEDC7121583DC200739EEE /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDC7021583DC200739EEE /* profileVC.swift */; };
 		10ED124D2156B678005818D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED124C2156B678005818D9 /* AppDelegate.swift */; };
 		10ED12542156B679005818D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12532156B679005818D9 /* Assets.xcassets */; };
 		10ED12572156B679005818D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED12552156B679005818D9 /* LaunchScreen.storyboard */; };
@@ -78,6 +79,7 @@
 		10DEDC6A2157746700739EEE /* RefillorRecycle.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RefillorRecycle.storyboard; sourceTree = "<group>"; };
 		10DEDC6C2157751000739EEE /* RecycleAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecycleAddVC.swift; sourceTree = "<group>"; };
 		10DEDC6E21580C2600739EEE /* ThankYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYou.swift; sourceTree = "<group>"; };
+		10DEDC7021583DC200739EEE /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
 		10ED12492156B678005818D9 /* VanHacksJAGM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanHacksJAGM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10ED124C2156B678005818D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10ED12532156B679005818D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				18BEF7A721577C7A0097E3B7 /* MilestonePopController.swift */,
 				18D4F3472157FD5200C13A16 /* Profile.storyboard */,
 				10DEDC6E21580C2600739EEE /* ThankYou.swift */,
+				10DEDC7021583DC200739EEE /* profileVC.swift */,
 			);
 			path = VanHacksJAGM;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				10ED124D2156B678005818D9 /* AppDelegate.swift in Sources */,
 				104C8F00215743AD0026C97F /* RefillAddVC.swift in Sources */,
 				10DEDC65215773B200739EEE /* AluminumAddVC.swift in Sources */,
+				10DEDC7121583DC200739EEE /* profileVC.swift in Sources */,
 				18BEF7A821577C7A0097E3B7 /* MilestonePopController.swift in Sources */,
 				10ED12AA21572955005818D9 /* Register.swift in Sources */,
 				10ED12A02156C3ED005818D9 /* CanIRecycleVC.swift in Sources */,
